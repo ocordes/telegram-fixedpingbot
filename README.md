@@ -6,9 +6,11 @@ via TCP healthy checks.
 
 You can use this package via:
 
+```
 git clone https://github.com/ocordes/telegram-fixedpingbot.git
 cd telegram-fixedpingbot
 python src/handler.py
+```
 
 The parameters can be set via environment variables or via .env:
 
