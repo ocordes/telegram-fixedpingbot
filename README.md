@@ -20,6 +20,7 @@ CHAT_ID=<ID from a group or private chat>
 SERVERS=<CSV list: server:port[,server2:port2] ...>
 TIMEOUT=<timeout of the connection check in seconds, default: 10 seconds>
 CHECK_TIME=<delay between two checks if tunning from the command line, default: 300 seconds>
+STATUS=<True for checking all servers and send a message in any case, default: False (send only the server which are down)>
 ```
 
 Have fun!
